@@ -4,7 +4,7 @@
       <div class="grid grid-cols-7 text-white gap-2">
         <div>News</div>
         <div>Newest</div>
-        <div>ASK</div>
+        <div>Ask</div>
         <div>Show</div>
         <div>Job</div>
         <div class="col-span-2 lg:col-end-10">Built with Nuxt.js</div>

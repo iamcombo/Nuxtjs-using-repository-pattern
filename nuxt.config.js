@@ -56,7 +56,19 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/pwa',
   ],
+  loading: {
+    color: '#00C48D'
+  },
+
+  manifest: {
+    name: 'Nuxt Hacker News',
+    short_name: 'Nuxt HN',
+    description: 'HackerNews clone built with Nuxt.js',
+    theme_color: '#2F495E',
+    start_url: '/'
+  },
   /*
   ** Nuxt.js modules
   */
