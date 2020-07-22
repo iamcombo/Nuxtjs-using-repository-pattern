@@ -26,7 +26,9 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Nuxt.js Hacker news clone using repository pattern' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'dns-prefetch', href: 'https://api.hackerwebapp.com' },
+      { rel: 'preconnect', href: 'https://api.hackerwebapp.com' }
     ],
     htmlAttrs: {
       lang: 'en'
