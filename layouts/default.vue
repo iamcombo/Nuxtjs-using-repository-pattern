@@ -45,6 +45,24 @@ html {
   margin: 0;
 }
 .my_container {
-  padding: 0 24rem;
+  padding: 0 20rem;
+}
+/* SmartPhone */
+@media only screen and (max-width: 500px) {
+  .my_container {
+    padding: 0 1rem;
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+  .my_container {
+    padding: 0 6rem;
+  }  
+}
+/* Normal */
+@media only screen and (min-width: 769px) and (max-width: 1199px){
+  .my_container {
+    padding: 0 10rem;
+  }  
 }
 </style>
